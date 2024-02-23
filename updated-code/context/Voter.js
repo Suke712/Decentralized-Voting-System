@@ -69,6 +69,7 @@ export const VotingProvider = ({ children }) => {
           method: "post",
           url: "https://beige-sophisticated-quail-439.mypinata.cloud/pinning/pinFileToIPFS",
           data: formData,
+          withCredentials: true,
           headers: {
             "access-control-allow-origin": "*",
             'Access-Control-Allow-Headers': 'Content-Type, Authorization',
@@ -101,15 +102,9 @@ export const VotingProvider = ({ children }) => {
           url: "https://beige-sophisticated-quail-439.mypinata.cloud/pinning/pinFileToIPFS/",
           data: formData,
           headers: {
-            "access-control-allow-origin": "*",
-            'Access-Control-Allow-Headers': 'Content-Type, Authorization, pinata_api_key, pinata_secret_api_key,',
-            'Access-Control-Allow-Methods': '*',
-            "pinata_api_key": `
-            126e07608ce6c1e41d19`,
-            "pinata_secret_api_key": `
-            447c1d506b1b204831e8960621f254dac653f30487588f0ebe5170f762eedd09`,
-            "Content-Type": "multipart/form-data",
-            "Accept": "text/plain",
+            "Access-Control-Allow-Headers": `pinata_api_key, pinata_secret_api_key`,
+            pinata_api_key: `126e07608ce6c1e41d19`,
+            pinata_secret_api_key: `447c1d506b1b204831e8960621f254dac653f30487588f0ebe5170f762eedd09`,
           },
         });
         const ImgHash = `https://beige-sophisticated-quail-439.mypinata.cloud/ipfs/${response.data.IpfsHash}`;
@@ -143,15 +138,8 @@ export const VotingProvider = ({ children }) => {
         url: "https://beige-sophisticated-quail-439.mypinata.cloud/pinning/pinJSONToIPFS",
         data: data,
         headers: {
-          "access-control-allow-origin": "*",
-          'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-          'Access-Control-Allow-Methods': '*',
-          pinata_api_key: `
-          126e07608ce6c1e41d19`,
-          pinata_secret_api_key: `
-          447c1d506b1b204831e8960621f254dac653f30487588f0ebe5170f762eedd09`,
-          "Content-Type": "application/json",
-          Accept: "text/plain",
+          pinata_api_key: `126e07608ce6c1e41d19`,
+          pinata_secret_api_key: `447c1d506b1b204831e8960621f254dac653f30487588f0ebe5170f762eedd09`,
         },
       });
 
