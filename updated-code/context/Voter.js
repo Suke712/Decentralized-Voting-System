@@ -82,7 +82,7 @@ export const VotingProvider = ({ children }) => {
             Accept: "text/plain",
           },
         });
-        const ImgHash = `https:api.mypinata.cloud/ipfs/${response.data.IpfsHash}`;
+        const ImgHash = `https://beige-sophisticated-quail-439.mypinata.cloud/ipfs/${response.data.IpfsHash}?pinataGatewayToken=hxHa3AuqMPNAkNxiHfhNXNB7dGqS_lnlMgUNcVyN_mkQeUzXWkWOAep280zZfQHw`;
 
         return ImgHash;
       } catch (error) {
@@ -106,7 +106,7 @@ export const VotingProvider = ({ children }) => {
             pinata_secret_api_key: `447c1d506b1b204831e8960621f254dac653f30487588f0ebe5170f762eedd09`,
           },
         });
-        const ImgHash = `https://api.mypinata.cloud/ipfs/${response.data.IpfsHash}`;
+        const ImgHash = `https://beige-sophisticated-quail-439.mypinata.cloud/ipfs/${response.data.IpfsHash}?pinataGatewayToken=hxHa3AuqMPNAkNxiHfhNXNB7dGqS_lnlMgUNcVyN_mkQeUzXWkWOAep280zZfQHw`;
 
         return ImgHash;
       } catch (error) {
@@ -142,7 +142,7 @@ export const VotingProvider = ({ children }) => {
         },
       });
 
-      const url = `https://beige-sophisticated-quail-439.mypinata.cloud/ipfs/${response.data.IpfsHash}`;
+      const url = `https://beige-sophisticated-quail-439.mypinata.cloud/ipfs/${response.data.IpfsHash}?pinataGatewayToken=hxHa3AuqMPNAkNxiHfhNXNB7dGqS_lnlMgUNcVyN_mkQeUzXWkWOAep280zZfQHw`;
 
       const voter = await contract.voterRight(address, name, url, fileUrl);
       voter.wait();
@@ -237,7 +237,7 @@ export const VotingProvider = ({ children }) => {
       },
     });
 
-    const url = `https://beige-sophisticated-quail-439.mypinata.cloud/ipfs/${response.data.IpfsHash}`;
+    const url = `https://beige-sophisticated-quail-439.mypinata.cloud/ipfs/${response.data.IpfsHash}?pinataGatewayToken=hxHa3AuqMPNAkNxiHfhNXNB7dGqS_lnlMgUNcVyN_mkQeUzXWkWOAep280zZfQHw`;
 
     const candidate = await contract.setCandidate(
       address,
