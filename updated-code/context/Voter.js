@@ -67,7 +67,7 @@ export const VotingProvider = ({ children }) => {
 
         const response = await axios({
           method: "post",
-          url: "https://beige-sophisticated-quail-439.mypinata.cloud/pinning/pinFileToIPFS",
+          url: "https://api.pinata.cloud/pinning/pinFileToIPFS/",
           data: formData,
           withCredentials: true,
           headers: {
@@ -82,7 +82,7 @@ export const VotingProvider = ({ children }) => {
             Accept: "text/plain",
           },
         });
-        const ImgHash = `https://beige-sophisticated-quail-439.mypinata.cloud/ipfs/${response.data.IpfsHash}`;
+        const ImgHash = `https:api.mypinata.cloud/ipfs/${response.data.IpfsHash}`;
 
         return ImgHash;
       } catch (error) {
@@ -99,15 +99,14 @@ export const VotingProvider = ({ children }) => {
 
         const response = await axios({
           method: "post",
-          url: "https://beige-sophisticated-quail-439.mypinata.cloud/pinning/pinFileToIPFS/",
+          url: "https://api.pinata.cloud/pinning/pinFileToIPFS/",
           data: formData,
           headers: {
-            "Access-Control-Allow-Headers": `pinata_api_key, pinata_secret_api_key`,
             pinata_api_key: `126e07608ce6c1e41d19`,
             pinata_secret_api_key: `447c1d506b1b204831e8960621f254dac653f30487588f0ebe5170f762eedd09`,
           },
         });
-        const ImgHash = `https://beige-sophisticated-quail-439.mypinata.cloud/ipfs/${response.data.IpfsHash}`;
+        const ImgHash = `https://api.mypinata.cloud/ipfs/${response.data.IpfsHash}`;
 
         return ImgHash;
       } catch (error) {
@@ -135,7 +134,7 @@ export const VotingProvider = ({ children }) => {
 
       const response = await axios({
         method: "POST",
-        url: "https://beige-sophisticated-quail-439.mypinata.cloud/pinning/pinJSONToIPFS",
+        url: "https://api.pinata.cloud/pinning/pinJSONToIPFS",
         data: data,
         headers: {
           pinata_api_key: `126e07608ce6c1e41d19`,
@@ -223,7 +222,7 @@ export const VotingProvider = ({ children }) => {
 
     const response = await axios({
       method: "POST",
-      url: "https://beige-sophisticated-quail-439.mypinata.cloud/pinning/pinJSONToIPFS",
+      url: "https://api.pinata.cloud/pinning/pinJSONToIPFS",
       data: data,
       headers: {
         "access-control-allow-origin": "*",
