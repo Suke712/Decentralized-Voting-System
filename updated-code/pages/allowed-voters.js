@@ -23,7 +23,7 @@ const allowedVoters = () => {
   const { uploadToIPFS, createVoter, getNewCandidate, voterArray } =
     useContext(VotingContext);
 
-  console.log(voterArray);
+  //console.log(voterArray);
 
   //-------------VOTERS
   const onDrop = useCallback(async (acceptedFile) => {
