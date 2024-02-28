@@ -44,7 +44,7 @@ const index = () => {
           </div>
           <div className={Style.winner_message}>
             <small>
-              <Countdown date={Date.now() + 1000000000} />
+              <Countdown date={Date.now() + 1000000} />
             </small>
           </div>
         </div>

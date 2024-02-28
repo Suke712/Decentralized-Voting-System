@@ -7,6 +7,8 @@ module.exports = {
   networks: {
     hardhat: {
       chainId: 1337,
+      gas: 2100000,
+      gasPrice: 8000000000,
     },
   },
 };

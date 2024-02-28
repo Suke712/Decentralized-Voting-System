@@ -45,9 +45,10 @@
 
 
 .candidate_list{
-    background-color: #9a02ac;
+    background-color: #39CCCC;
     font-size: 1rem;
     padding: .1rem 1rem;
+    border-radius: 1%;
 }
 
 .candidate_list p{

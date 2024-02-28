@@ -2,7 +2,7 @@
 
 .input__box{
     width: 100%;
-    background-color: #730283;
+    background-color: #39CCCC;
     padding: .5rem;
     border-radius: .2rem;
 }
@@ -17,7 +17,7 @@
 }
 
 .input__box input::placeholder {
-    color: #2d0036;
+    color: #fff;
     font-weight: 500;
     text-transform: capitalize;
     

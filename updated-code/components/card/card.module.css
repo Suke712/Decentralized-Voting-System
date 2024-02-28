@@ -2,16 +2,15 @@
 
 .card{
     width: 100%;
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
 .card_box{
-    background-color: #231E39;
+    background-color: #001F3F;
     box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
-    color: #B3B8CD;
+    color: #fff;
     text-align: center;
     overflow: hidden;
     border-radius: .5rem;
@@ -24,38 +23,39 @@
 .card_info {
     line-height: 1;
     padding: 0 1.5rem;
+    font-size: small;
 }
 
 .card_vote{
-    color: #9a02ac;
+    color: #39CCCC;
 }
 
 .total{
-    background-color: #9a02ac;
-    padding: .5rem;
+    background-color: #39CCCC;
+    padding: .2rem;
     border-radius: .2rem;
-    font-weight: 900;
+    font-weight: 800;
     letter-spacing: 1;
     color: #fff;
     text-transform: uppercase;
 }
 
 .card_vote p{
-    font-size: 1.5rem;
+    font-size: 0.5rem;
 }
 
 .card_button{
     margin-bottom: 2rem;
-    padding: .5rem;
+    padding: .1rem;
 }
 
 .card_button button{
-    background-color: #9a02ac;
+    background-color: #228B22;
     box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
     border: none;
     outline: none;
     padding: .5rem 1rem;
-    font-size: 1rem;
+    font-size: 0.6rem;
     font-weight: 500;
     color: #fff;
     border-radius: .2rem;

@@ -150,7 +150,7 @@ const candidateRegisration = () => {
 
           <div className={Style.Button}>
             <Button
-              btnName="Authorized Candidate"
+              btnName="Authorize Candidate"
               handleClick={() => setCandidate(candidateForm, fileUrl, router)}
             />
           </div>

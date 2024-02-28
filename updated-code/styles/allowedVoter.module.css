@@ -8,7 +8,7 @@
 }
 .voter{
     
-    background-color: #231E39;
+    background-color: #001F3F;
     border-radius: 25px;
     box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
     color: #B3B8CD;
@@ -18,7 +18,7 @@
 
 .voter__container__box{
     text-align: center;
-    border: 1px dotted #9a02ac;
+    border: 1px dotted #2dbfc4;
     border-radius: 5px;
 }
 
@@ -42,7 +42,7 @@
 /* //////////////////////////////RESISTER */
 
 .register{
-    background-color: #231E39;
+    background-color: #001F3F;
     padding: 1rem;
     border-radius: .5rem;
     display: grid;
@@ -50,7 +50,7 @@
 }
 
 .Candidate{
-    background-color: #9a02ac;
+    background-color: #2dbfc4;
     padding: .5rem;
     border-radius: .2rem;
     cursor: pointer;
@@ -76,10 +76,10 @@
     width: 15rem;
     height: 15rem;
     padding: 1rem;
-    background-color: #231E39;
+    background-color: #001F3F;
     border-radius: 25px;
     box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
-    color: #B3B8CD;
+    color: #ffffff;
     text-align: start;
 }
 
@@ -90,10 +90,10 @@
 }
 
 .voterInfo_paragraph{
-    background-color: #231E39;
+    background-color: #001F3F;
     border-radius: 25px;
     box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
-    color: #B3B8CD;
+    color: #fff;
     height: 9rem;
     padding: 1rem;
 }
@@ -108,18 +108,18 @@
 /* //////////////////// */
 
 .sideInfo{
-    background-color: #231E39;
+    background-color: #001F3F;
     padding: .5rem 1rem;
     border-radius: 1rem;
-    color: #B3B8CD;
+    color: #fff;
 }
 .sideInfo_box h4{
-    background-color: #9a02ac;
+    background-color: #2dbfc4;
     padding: .5rem;
     border-radius: .2rem;
 }
 .sideInfo_box .sideInfo_para{
-    background-color: #9a02ac;
+    background-color: #2dbfc4;
     padding: .5rem;
     border-radius: .2rem;
 }
@@ -131,7 +131,7 @@
 
 .card_box{
     line-height: 1;
-    border: 1px solid #9a02ac;
+    border: 1px solid #2dbfc4;
     padding: .2rem;
     box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
     border-radius: .3rem;
@@ -144,10 +144,10 @@
 /* ////////////////////////////USER LIST */
 
 .createdVorter__info{
-    background-color: #231E39;
+    background-color: #001F3F;
     border-radius: 25px;
     box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
-    color: #B3B8CD;
+    color: #fff;
     padding: 2rem;
     
 }

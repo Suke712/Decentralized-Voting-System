@@ -3,9 +3,9 @@
 .button{
     margin-block: 2rem;
     background-color: transparent;
-    border: 1px dotted #9a02ac;
+    border: 1px dotted #FFD700;
     padding: .5rem 1rem;
-    color: #9a02ac;
+    color: #FFD700;
     border-radius: 1rem;
     cursor: pointer;
     font-weight: 600;
@@ -13,6 +13,6 @@
 }
 
 .button:hover{
-    background-color: #9a02ac;
-    color: #231E39;
+    background-color: #FFD700;
+    color: #000;
 }
